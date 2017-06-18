@@ -1,1 +1,38 @@
+body{
+  background-color: lightblue;
+  background-position: center;
+  font-family: verdana;
+  font-size: 40px;
+  text-align: center;
+  width: 750px;
+  padding: 40px;
+  margin: 0 auto;
+}
 
+h1{
+    color: red;
+    font-size: 20px;
+    font-size: 50px;
+    font-style: normal; 
+}
+
+#para1{
+    text-align: center;
+    color: green;
+}
+
+#para2{
+    text-align: center;
+    color: violet;
+}
+
+.table{
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    text-align: center;
+    overflow: hidden;
+}
