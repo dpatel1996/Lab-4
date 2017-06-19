@@ -1,7 +1,7 @@
 body{
   background-color: lightblue;
   background-position: center;
-  font-family: verdana;
+  font-family: 'verdana', Sans-serif;
   font-size: 20px;
   text-align: center;
   width: 950px;
@@ -16,6 +16,12 @@ h1{
     font-style: normal; 
 }
 
+#img{
+  border: 1px solid #ddd;
+  max-width: 100%;
+  border-radius: 100%;
+    
+}
 .table{
     font-family: 'Console', Monospace;
     font-size: 18px;
