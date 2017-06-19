@@ -60,8 +60,11 @@ td{
   background-color: #F5F5F5; /* White Smoke */
 }
 
-tr hover td{
+tr:hover td{
   background-color: 	#DDA0DD;  /* Plum */
   border: 2px solid yellow;
-  color: 	#9ACD32; /* Yellow Green */ 
+  color: 	#FFFFFF; /* White */ 
+}
+th{
+  text-decoration: underline;
 }
