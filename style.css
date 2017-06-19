@@ -9,6 +9,13 @@ body{
   margin: 0 auto;
 }
 
+p{
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Arial', Sans-serif; 
+  
+}
+
 h1{
     color: red;
     font-size: 20px;
@@ -20,7 +27,7 @@ h1{
   border: 1px solid #ddd;
   max-width: 100%;
   border-radius: 100%;
-    
+  color: #A52A2A; /* Brown */
 }
 .table{
     font-family: 'Console', Monospace;
