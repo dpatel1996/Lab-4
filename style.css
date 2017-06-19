@@ -4,7 +4,7 @@ body{
   font-family: verdana;
   font-size: 20px;
   text-align: center;
-  width: 1050px;
+  width: 950px;
   padding: 0px;
   margin: 0 auto;
 }
@@ -16,18 +16,8 @@ h1{
     font-style: normal; 
 }
 
-#para1{
-    text-align: center;
-    color: green;
-}
-
-#para2{
-    text-align: center;
-    color: violet;
-}
-
 .table{
-    font-family: Georgia, serif;
+    font-family: 'Console', Monospace;
     font-size: 18px;
     font-style: normal;
     font-weight: normal;
@@ -35,4 +25,28 @@ h1{
     line-height: 1.2em;
     text-align: center;
     overflow: hidden;
+}
+th{
+  border: 2px solid yellow;
+  text-align: center; 
+  font-family: 'Lucida', monospace; 
+  font-size: 18px;
+  height: 50px;
+  background-color: #FFC0CB; /* pink */
+  padding: 10px;
+}
+
+td{
+  border: 1px solid yellow;
+  font-family: 'Lucida', Monospace;
+  font-size: 16px;
+  text-align: center;
+  padding:10px;
+  background-color: #F5F5F5; /* White Smoke */
+}
+
+tr: hover td{
+  background-color: 	#DDA0DD;  /* Plum */
+  border: 2px solid yellow;
+  color: 	#9ACD32; /* Yellow Green */ 
 }
