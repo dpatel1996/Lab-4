@@ -1,5 +1,5 @@
 body{
-  background-color: lightblue;
+ /* background-color: lightblue;*/
   background-position: center;
   font-family: 'verdana', Sans-serif;
   font-size: 20px;
@@ -7,11 +7,11 @@ body{
   width: 950px;
   padding: 0px;
   margin: 0 auto;
+  background-image: url("images/stars.jpg");
+  background-size: cover;
 }
 
-body{
-  background-color: url("stars.jpg");
-}
+
 p{
   font-size: 18px;
   font-style: normal;
@@ -69,4 +69,12 @@ tr:hover td{
 }
 th{
   text-decoration: underline;
+}
+
+p {
+  color: violet ;
+}
+
+h3{
+  color:yellow;
 }
