@@ -9,6 +9,9 @@ body{
   margin: 0 auto;
 }
 
+body{
+  background-color: url("stars.jpg");
+}
 p{
   font-size: 18px;
   font-style: normal;
@@ -21,7 +24,6 @@ div{
 h1{
     color: red;
     font-size: 20px;
-    font-size: 50px;
     font-style: normal; 
 }
 
